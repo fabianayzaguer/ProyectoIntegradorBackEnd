@@ -3,13 +3,11 @@ package BackEndC3.ClinicaOdontologica.entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-
 @Getter
 @Setter
 @Entity
 @Table(name = "domicilios")
 public class Domicilio {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

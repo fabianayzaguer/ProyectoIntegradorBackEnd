@@ -14,11 +14,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
 @RestController
 @RequestMapping("/turnos")
 public class TurnoController {
-
     @Autowired
     private TurnoService turnoService;
     @Autowired
@@ -42,7 +40,6 @@ public class TurnoController {
         }
 
     }
-
     @GetMapping("/{id}")
     public ResponseEntity<Optional<Turno>> buscarPorId(@PathVariable Long id){
         Optional<Turno> turnoBuscado= turnoService.buscarPorId(id);
@@ -68,16 +65,10 @@ public class TurnoController {
             throw new ResourceNotFoundException("Turno no encontrado");
         }
     }
-
-    // --> Cuando se actualiza despliega null el paciente y el odontologo
     @PutMapping
     public ResponseEntity<String> actualizarTurno(@RequestBody Turno turno){
-        //Paciente pacienteBuscado;
-        //Odontologo odontologoBuscado;
         Optional<Turno> turnoBuscado= turnoService.buscarPorId(turno.getId());
         if(turnoBuscado.isPresent()){
-            //pacienteBuscado= pacienteService.buscarPorID(turno.getPaciente().getId());
-            //odontologoBuscado= odontologoService.buscarOdontologoPorId(turno.getOdontologo().getId());
             turnoService.actualizarTurno(turno);
             return ResponseEntity.ok("Turno actualizado con exito");
         }else{

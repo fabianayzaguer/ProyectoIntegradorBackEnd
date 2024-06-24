@@ -14,15 +14,11 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Optional;
 
-//@Controller //<-- es controller pq vamos a usar una tecnologia de vista
 @RestController
 @RequestMapping("/odontologos")
 public class OdontologoController {
     @Autowired
     private OdontologoService odontologoService;
-
-    //ahora vienen todos los metodos que nos permitan actuar como intermediarios.
-
     @GetMapping("/{id}")
     public ResponseEntity<Odontologo> buscarOdontologoPorId(@PathVariable Long id){
         Optional<Odontologo> odontologoOptional = odontologoService.buscarOdontologoPorId(id);
@@ -32,7 +28,6 @@ public class OdontologoController {
         }
         return ResponseEntity.badRequest().build();
     }
-
 
     @PostMapping
     public ResponseEntity<Odontologo> guardarOdontologo(@RequestBody Odontologo odontologo){
@@ -68,13 +63,4 @@ public class OdontologoController {
         return ResponseEntity.ok(odontologoService.buscarTodos());
     }
 
-
-//    @GetMapping
-//    public String buscarOdontologoPorId(Model model, @RequestParam("id") Integer id){
-//
-//        Odontologo odontologo= odontologoService.buscarOdontologoPorId(id);
-//
-//        model.addAttribute("matricula",odontologo.getMatricula());
-//        return "index";
-//    }
 }

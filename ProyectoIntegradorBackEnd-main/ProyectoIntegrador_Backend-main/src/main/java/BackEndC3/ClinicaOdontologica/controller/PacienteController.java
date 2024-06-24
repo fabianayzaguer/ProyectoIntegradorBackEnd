@@ -11,15 +11,13 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
-//@Controller //<-- es controller pq vamos a usar una tecnologia de vista
 @RestController
 @RequestMapping("/pacientes")
 public class PacienteController {
     @Autowired
     private PacienteService pacienteService;
 
-    @GetMapping("/{id}") //--> nos permite buscar un paciente por id
+    @GetMapping("/{id}")
     public ResponseEntity<Optional<Paciente>> buscarPacientePorId(@PathVariable Long id){
         return ResponseEntity.ok(pacienteService.buscarPorID(id));
     }
@@ -28,8 +26,7 @@ public class PacienteController {
     public ResponseEntity<List<Paciente>> buscarTodosLosPacientes(){
         return ResponseEntity.ok(pacienteService.buscarTodosLosPacientes());
     }
-
-    @PostMapping //--> nos permite persistir los datos que vienen desde la vista
+    @PostMapping
     public ResponseEntity<Paciente> guardarPaciente(@RequestBody Paciente paciente){
         return ResponseEntity.ok(pacienteService.guardarPaciente(paciente));
     }
@@ -46,7 +43,6 @@ public class PacienteController {
         }
 
     }
-
     @DeleteMapping("/{id}")
     public ResponseEntity<String> eliminarPaciente(@PathVariable("id") Long id) throws ResourceNotFoundException {
         Optional<Paciente> pacienteBuscado = pacienteService.buscarPorID(id);
@@ -57,7 +53,6 @@ public class PacienteController {
             throw new ResourceNotFoundException("Paciente no encontrado");
         }
     }
-
     @GetMapping("/buscar/{email}")
     public ResponseEntity<Optional<Paciente>> buscarPorEmail(@PathVariable String email){
         Optional<Paciente> pacienteBuscado= pacienteService.buscarPorEmail(email);
@@ -67,23 +62,6 @@ public class PacienteController {
             return  ResponseEntity.notFound().build();
         }
     }
-
-
-    //ahora vienen todos los metodos que nos permitan actuar como intermediarios.
-//    @GetMapping
-//    public String buscarPacientePorCorreo(Model model, @RequestParam("email") String email){
-//
-//        Paciente paciente= pacienteService.buscarPorEmail(email);
-//        Integer matricula =paciente.getOdontologo().getMatricula();
-//
-//        model.addAttribute("nombre",paciente.getNombre());
-//        model.addAttribute("apellido",paciente.getApellido());
-//        model.addAttribute("matricula",matricula);
-//
-//        return "index";
-//
-//        //return pacienteService.buscarPorEmail(email);
-//    }
 
 
 }

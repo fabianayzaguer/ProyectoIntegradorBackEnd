@@ -13,8 +13,6 @@ public class PacienteService {
 
     @Autowired
     private PacienteRepository pacienteRepository;
-
-    //metodos manuales
     public Paciente guardarPaciente(Paciente paciente){
         return pacienteRepository.save(paciente);
     }

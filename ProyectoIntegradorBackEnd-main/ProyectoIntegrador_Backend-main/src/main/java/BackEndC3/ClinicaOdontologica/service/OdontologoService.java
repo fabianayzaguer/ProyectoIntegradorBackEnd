@@ -13,8 +13,6 @@ public class OdontologoService {
 
     @Autowired
     private OdontologoRepository odontologoRepository;
-
-    //metodos manuales
     public Odontologo guardarOdontologo(Odontologo odontologo){
         return odontologoRepository.save(odontologo);
     }
@@ -35,9 +33,4 @@ public class OdontologoService {
         odontologoRepository.save(odontologo);
     }
 
-    //public Odontologo guardarOdontologoEnLista(Odontologo odontologo){
-       // return odontologoiDaoList.guardar(odontologo);
-    //}
-    //public List<Odontologo> buscarTodosEnLista(){return odontologoiDaoList.buscarTodos();
- //}
 }

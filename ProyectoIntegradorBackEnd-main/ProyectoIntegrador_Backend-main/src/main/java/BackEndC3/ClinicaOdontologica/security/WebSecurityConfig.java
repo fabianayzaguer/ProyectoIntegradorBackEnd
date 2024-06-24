@@ -14,23 +14,19 @@ import org.springframework.security.web.SecurityFilterChain;
 import static org.springframework.security.config.Customizer.withDefaults;
 
 @Configuration
-@EnableWebSecurity //aca ya no funciona postman ni nada que no se autentique.
+@EnableWebSecurity
 public class WebSecurityConfig {
     @Autowired
     private UsuarioService usuarioService;
     @Autowired
     private BCryptPasswordEncoder bCryptPasswordEncoder;
-
-    //proveedor de autenticaciones DAO
     @Bean
     public DaoAuthenticationProvider daoAuthenticationProvider(){
-        //aca debe venir el usuario y desencriptador de claves
       DaoAuthenticationProvider provider= new DaoAuthenticationProvider();
       provider.setUserDetailsService(usuarioService);
       provider.setPasswordEncoder(bCryptPasswordEncoder);
         return provider;
     }
-    //aca deberiamos hablar de las autorizaciones
     @Bean
     public SecurityFilterChain securityFilterChainAdmin(HttpSecurity http) throws Exception{
         http
