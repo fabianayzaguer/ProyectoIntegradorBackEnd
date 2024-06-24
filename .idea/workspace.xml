@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82965d8a-707f-494b-9ca6-8b38d58af0ed" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Nueva carpeta.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ProyectoIntegradorBackEnd.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/cambios.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/ClinicaOdontologicaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/controller/OdontologoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/controller/PacienteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/controller/TurnoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/Domicilio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/Odontologo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/Paciente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/Turno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/entity/UsuarioRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/exception/BadRequestException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/exception/GlobalException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/repository/OdontologoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/repository/PacienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/repository/TurnoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/repository/UsuarioRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/security/DatosIniciales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/security/PasswordEncoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/security/WebSecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/service/OdontologoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/service/PacienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/service/TurnoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/java/proyecto/ClinicaOdontologica/service/UsuarioService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/get_odontologos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/get_pacientes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/get_turnos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/odontologos/delete_odontologo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/odontologos/get_odontologos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/odontologos/post_odontologos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/odontologos/update_odontologo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/pacientes/delete_paciente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/pacientes/get_pacientes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/pacientes/post_pacientes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/pacientes/update_paciente.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/js/turnos/post_turnos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/post_odontologos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/post_pacientes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/static/post_turnos.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/test/java/BackEndC3/ClinicaOdontologica/ClinicaOdontologicaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackEndC3/src/test/java/BackEndC3/ClinicaOdontologica/OdontologoServiceTest.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2iJPHi81iZTwMl9f08w3Bp7vMGo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/CHIVA/Desktop/Digital House/FRONTEND II/BackEndC3&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82965d8a-707f-494b-9ca6-8b38d58af0ed" name="Changes" comment="" />
+      <created>1719205621273</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719205621273</updated>
+    </task>
+    <servers />
+  </component>
+</project>

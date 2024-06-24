@@ -1,4 +1,4 @@
-package integrador.ClinicaOdontologica;
+package BackEndC3.ClinicaOdontologica;
 
 import BackEndC3.ClinicaOdontologica.dao.BD;
 import BackEndC3.ClinicaOdontologica.entity.Odontologo;

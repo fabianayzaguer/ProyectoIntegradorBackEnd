@@ -1,4 +1,4 @@
-package integrador.ClinicaOdontologica;
+package BackEndC3.ClinicaOdontologica;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
